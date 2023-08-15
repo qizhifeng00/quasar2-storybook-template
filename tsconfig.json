@@ -1,0 +1,16 @@
+{
+  "extends": "@quasar/app-vite/tsconfig-preset",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "strictNullChecks": false, //严格Null检查
+    "noUnusedLocals": false, // 检查只声明、未使用的局部变量(只提示不报错)
+    "noUnusedParameters": false, // 检查未使用的函数参数(只提示不报错)
+    "noImplicitAny": false, // 不允许隐式的any类型
+    "noImplicitThis": false, // 不允许this有隐式的any类型
+    "experimentalDecorators": true, //实验装饰器
+    "allowSyntheticDefaultImports": true,
+    "declaration": true, // 生成声明文件，开启后会自动生成声明文件
+    "declarationDir": "es", // 指定生成声明文件存放目录
+    "skipLibCheck": true //跳过类型检查
+  }
+}
