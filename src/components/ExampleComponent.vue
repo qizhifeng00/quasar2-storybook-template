@@ -8,7 +8,7 @@
     </ul>
     <p>Count: {{ todoCount }} / {{ meta.totalCount }}</p>
     <p>Active: {{ active ? 'yes' : 'no' }}</p>
-    <p>Clicks on todos: {{ clickCount }}</p>
+    <p>AAAAAAAClicks on todos: {{ clickCount }}</p>
   </div>
 </template>
 
@@ -33,5 +33,4 @@ function increment() {
 }
 
 const todoCount = computed(() => props.todos.length);
-
 </script>

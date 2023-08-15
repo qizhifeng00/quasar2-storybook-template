@@ -16,7 +16,7 @@
     "build": "quasar build",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "chromatic --exit-zero-on-changes"
+    "chromatic": "chromatic --project-token CHROMATIC_PROJECT_TOKEN"
   },
   "dependencies": {
     "@quasar/extras": "^1.16.4",
