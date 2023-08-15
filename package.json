@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "description": "A Quasar Project",
   "productName": "Quasar App",
-  "author": "fengzhiqi <46121429+qizhifeng00@users.noreply.github.com>",
+  "author": {
+    "name": "fengzhiqi",
+    "email": "46121429+qizhifeng00@users.noreply.github.com"
+  },
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.ts,.vue ./",
@@ -12,7 +15,8 @@
     "dev": "quasar dev",
     "build": "quasar build",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_59b051ecbec0f54"
   },
   "dependencies": {
     "@quasar/extras": "^1.16.4",
@@ -54,5 +58,7 @@
     "node": "^18 || ^16 || ^14.19",
     "npm": ">= 6.13.4",
     "yarn": ">= 1.21.1"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "quasar-project@0.0.1"
 }

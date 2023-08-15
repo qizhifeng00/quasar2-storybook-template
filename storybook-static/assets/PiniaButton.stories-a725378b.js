@@ -1,0 +1,6 @@
+import{s as m,u as d,v as f,y as g,z as a,G as n,x as b}from"./vue.esm-bundler-b3945b90.js";import{d as _,s as y}from"./pinia-1448b468.js";const B=_("counter",{state:()=>({counter:0}),getters:{doubleCount:t=>t.counter*2},actions:{increment(){this.counter++}}}),i=m({__name:"PiniaButton",props:{label:{default:""}},setup(t){const o=B(),{counter:l}=y(o);return(p,r)=>(d(),f("div",null,[g(a(n(l))+" ",1),b("button",{onClick:r[0]||(r[0]=x=>n(o).increment())},a(p.label),1)]))}});i.__docgenInfo={exportName:"default",displayName:"PiniaButton",description:"",tags:{},props:[{name:"label",required:!0,type:{name:"string"},defaultValue:{func:!1,value:"''"}}],sourceFiles:["D:/qiqiqi/quasar2-storybook-template/src/components/UI/PiniaButton.vue"]};const v={title:"UI/PiniaButton",component:i,tags:["autodocs"],argTypes:{label:{control:"text"}}},e={args:{label:"Up"}};var s,u,c;e.parameters={...e.parameters,docs:{...(s=e.parameters)==null?void 0:s.docs,source:{originalSource:`{
+  args: {
+    label: 'Up'
+  }
+}`,...(c=(u=e.parameters)==null?void 0:u.docs)==null?void 0:c.source}}};const S=["Primary"];export{e as Primary,S as __namedExportsOrder,v as default};
+//# sourceMappingURL=PiniaButton.stories-a725378b.js.map
